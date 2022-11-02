@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="Activity Detector"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#90000000"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ActivityAct">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:label="Activity Detector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90000000"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".ActivityAct">
+
+        <EditText
+            android:id="@+id/label_edit"
+            android:hint=" Label(0,1,2,3)"
+            android:inputType="numberDecimal"
+            android:background="#E9E5E5"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textStyle="bold|italic"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E9E5E5"
+                android:text="Start"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"></Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="End"
+                android:layout_marginLeft="10dp"
+                android:background="#E9E5E5"
+                android:textStyle="bold|italic"
+                android:id="@+id/end_id"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=" Train "
+        android:layout_margin="20dp"
+        android:background="#E9E5E5"
+        android:textStyle="bold|italic"
+        android:id="@+id/train_id"></Button>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:label="Activity Detector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#90000000"
+        android:orientation="horizontal"
+        tools:context=".ActivityAct">
+        <TextView
+            android:id="@+id/train_RF_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E9E5E5"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Walking"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Standing"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#E9E5E5"
+            android:textStyle="bold|italic"
+            android:id="@+id/train_NB_id"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Walking"
+            android:background="#E9E5E5"
+            android:textStyle="bold|italic"
+            android:id="@+id/train_DT_id"></TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text=" Deploy "
+        android:background="#E9E5E5"
+        android:textStyle="bold|italic"
+        android:id="@+id/deploy_id"></Button>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:label="Activity Detector"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#90000000"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:context=".ActivityAct">
+
+        <TextView
+            android:id="@+id/deploy_RF_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E9E5E5"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="RF: 98%"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="NB: 98%"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#E9E5E5"
+            android:textStyle="bold|italic"
+            android:id="@+id/deploy_NB_id"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="DT: 98%"
+            android:background="#E9E5E5"
+            android:textStyle="bold|italic"
+            android:id="@+id/deploy_DT_id"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
