@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg)](https://docs.oracle.com/javase/8/docs/api/)
 [![Library](https://img.shields.io/badge/ML-Weka-blue.svg)](https://www.cs.waikato.ac.nz/ml/weka/)
 
-**Weka Activity Recognition** is a fully functional Android application that leverages the device's sensors (Gyroscope/Accelerometer) to perform Human Activity Recognition (HAR) directly on the edge. 
+**Weka Activity Recognition** is a fully functional Android application that uses the device's sensors (Gyroscope/Accelerometer) to perform Human Activity Recognition (HAR) directly on the edge. 
 
 Unlike standard apps that only deploy pre-trained models, this application allows users to **collect data, train a machine learning model, and deploy it entirely on their smartphone**, without needing a backend server.
 
@@ -36,7 +36,7 @@ The app follows a standard Machine Learning pipeline implemented entirely in Jav
 
 | Data Collection | Training Model | Activity Prediction |
 |:---:|:---:|:---:|
-| <img src="path/to/screenshot1.png" width="200"> | <img src="path/to/screenshot2.png" width="200"> | <img src="path/to/screenshot3.png" width="200"> |
+| <img src="screenshots/screenshot1.png" width="200"> | <img src="screenshots/screenshot2.png" width="200"> | <img src="screenshots/screenshot3.png" width="200"> |
 
 ##  Getting Started
 
